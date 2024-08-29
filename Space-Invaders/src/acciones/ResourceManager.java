@@ -58,7 +58,7 @@ public class ResourceManager {
 		return img;
 	}
 
-	//Intento de que lea el .txt con los puntajes
+	//Lee el .txt con los puntajes
 	public static int[] readHighscores() {
 		
 		int[] array = new int[10];
@@ -82,7 +82,7 @@ public class ResourceManager {
 		return array;
 	}
 	
-	//Intento de que escriba lo que tiene guardado Reference.highscores[] en highscores.txt
+	//Escribe lo que tiene guardado Reference.highscores[] en el txt
 	public static void writeHighscores() {
 		
 		try {
