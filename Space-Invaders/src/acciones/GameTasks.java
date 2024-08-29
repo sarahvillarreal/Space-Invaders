@@ -298,7 +298,7 @@ public class GameTasks {
 		Reference.projectiles = new ArrayList<Projectile>();
 	}
 
-	//Intento de guardar los puntajes
+	//Guardar los puntajes
 	public static void sortHighscores() {
 		int appo;
 		
