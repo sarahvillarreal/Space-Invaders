@@ -7,8 +7,8 @@ import acciones.ResourceManager;
 public class Alien extends ScreenElement {
     
     private static int xDir = 10;
-    private static int motionDelay = 1;
-    private static int motionDelay2 = 1;
+    private static int motionDelay = 15;
+    private static int motionDelay2 = 8;
     private static int frame = 0;
     
     private int deathDelay = 20;
